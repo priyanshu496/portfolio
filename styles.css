@@ -1,0 +1,117 @@
+body {
+    background-image: url(background.png);
+    
+}
+
+
+
+.container{
+    display: grid;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    border-bottom: 2px solid #cecece; /* Adds a line below the navigation bar */
+    padding-bottom: 10px; /* Optional: Adds space below the text and the line */
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Spaces items across the full width */
+    width: 100%; /* Makes the navigation span the full width of the container */
+    max-width: 1200px; /* Optional: Limits the width for better design on larger screens */
+    list-style: none; /* Removes bullets from the list */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18.5px;
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 20px; /* Adds padding for better spacing */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation on hover */
+}
+
+.nav-link:hover {
+    color: black; /* Optional: Changes color on hover */
+    transform: scale(1.2); /* Enlarges the link to 120% of its size */
+}
+.h1 {
+    margin-top: 80px;
+    font-family: serif;
+    font-size: 56px;
+}
+
+.h13{
+    
+    margin-bottom: 150px;
+    font-family: serif;
+    font-size: 56px;
+}
+.p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.n1{
+    font-family: serif;
+}
+
+.p2{
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: black;
+    border: none;
+}
+.list-item{
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation on hover */
+}
+
+.list-item:hover {
+    color: black; /* Optional: Changes color on hover */
+    transform: scale(1.03); /* Enlarges the link to 120% of its size */
+}
+
+.skills{
+    display: grid;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.container > .main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.photo{
+    display: grid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 225px;
+}
+
+
+.container > .svg{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 150px;
+}
